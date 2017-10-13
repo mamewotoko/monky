@@ -97,7 +97,7 @@ Only considered when moving past the last entry with `monky-goto-next-section'."
   :group 'monky
   :type 'string)
 
-(defcustom monky-outgoing-repository ""
+(defcustom monky-outgoing-repository "default"
   "The repository to which changes are pushed to by default."
   :group 'monky
   :type 'string)
